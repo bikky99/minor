@@ -18,5 +18,8 @@ router.get('/post/:id', postController.viewSingle);
 // router.post('/posts', userController.addPost);
 // router.put('/posts/:id', userController.editPost);
 
+//profile related routes
+// router.get('/profile/:username', userController.ifUserExists, userController.profilePostsScreen);
+
 
 module.exports = router;
