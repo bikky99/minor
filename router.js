@@ -37,6 +37,7 @@ router.post(
   userController.mustBeLoggedIn,
   postController.delete
 );
+router.post("/search", postController.search);
 // router.post('/posts', userController.addPost);
 // router.put('/posts/:id', userController.editPost);
 

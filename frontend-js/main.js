@@ -1,3 +1,7 @@
 import Search from './modules/search';
 
-const search = new Search();
+if (document.querySelector('.header-search-icon')) {
+    new Search();
+}
+
+  
